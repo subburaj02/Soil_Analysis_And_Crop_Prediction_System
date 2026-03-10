@@ -1,117 +1,115 @@
 # Soil_Analysis_And_Crop_Prediction_System
 A data analytics and machine learning project that analyzes soil nutrients and environmental factors to recommend the most suitable crop for cultivation.
 
-**🌱 Soil Analysis and Crop Prediction System**
-📌 Overview
+**Soil Analysis and Crop Prediction System**
+
+**Overview**
 
 The Soil Analysis and Crop Prediction System is a machine learning-based project that recommends the most suitable crop based on soil nutrients and environmental conditions.
-
 This project analyzes important soil parameters such as Nitrogen (N), Phosphorus (P), Potassium (K), pH level, along with environmental factors like temperature, humidity, and rainfall to predict the best crop for cultivation.
-
 The goal of this system is to support smart agriculture by helping farmers make data-driven decisions that can improve crop yield and sustainability.
 
-**📁 Dataset**
+**Dataset**
 
 The dataset used in this project contains 2200 records with different soil and environmental conditions.
 
-Dataset Features
-Feature	Description
-N	Nitrogen content in soil
-P	Phosphorus content in soil
-K	Potassium content in soil
-temperature	Average temperature (°C)
-humidity	Humidity percentage
-ph	Soil pH value
-rainfall	Rainfall amount (mm)
-label	Recommended crop
+**Dataset Features**
 
-Example Crops in Dataset
+1) N - Nitrogen content in soil
+2) P - Phosphorus content in soil
+3) K - Potassium content in soil
+4) temperature - Average temperature (°C)
+5) humidity - Humidity percentage
+6) ph - Soil pH value
+7) rainfall - Rainfall amount (mm)
+8) label - Recommended crop
+   
+**Example Crops in Dataset:**
 
-Rice
-Maize
-Chickpea
-Kidney Beans
-Banana
-Mango
-Apple
-Coffee
-Cotton
-Coconut
+1)Rice
+2)Maize
+3)Chickpea
+4)Kidney Beans
+5)Banana
+6)Mango
+7)Apple
+8)Coffee
+9)Cotton
+10)Coconut
 And many more
 
-**🛠 Tools & Technologies**
+**Tools & Technologies**
+Programming - Python
 
-Programming: Python
+**Libraries:**
+1)Pandas – Data manipulation
+2)NumPy – Numerical operations
+3)Matplotlib – Data visualization
+4)Seaborn – Statistical visualization
+5)Scikit-Learn – Machine learning models
 
-Libraries:
-Pandas – Data manipulation
-NumPy – Numerical operations
-Matplotlib – Data visualization
-Seaborn – Statistical visualization
-Scikit-Learn – Machine learning models
+Environment - Jupyter Notebook
 
-Environment: Jupyter Notebook
+**Project Workflow**
 
-**🔍 Project Workflow**
-
-**1️⃣ Data Loading**
+**1)Data Loading**
 
 Imported dataset using Pandas
 Verified dataset structure and data types
 Checked dataset size and columns
 
-**2️⃣ Exploratory Data Analysis (EDA)**
+**2)Exploratory Data Analysis (EDA)**
 
 Performed analysis to understand patterns in the data:
 
-Distribution of soil nutrients
-Temperature and rainfall analysis
-Crop distribution
-Correlation between features
+1)Distribution of soil nutrients
+2)Temperature and rainfall analysis
+3)Crop distribution
+4)Correlation between features
 
 Visualization techniques used:
 
-Heatmaps
-Distribution plots
-Scatter plots
-Pair plots
+1)Heatmaps
+2)Distribution plots
+3)Scatter plots
+4)Pair plots
 
-**3️⃣ Data Preprocessing**
+**3)Data Preprocessing**
 
 Steps performed:
 
-Checked missing values
-Verified dataset consistency
-Feature selection
-Split dataset into training and testing sets
+1)Checked missing values
+2)Verified dataset consistency
+3)Feature selection
+4)Split dataset into training and testing sets
 
-**4️⃣ Machine Learning Model**
+**4)Machine Learning Model**
 
 A machine learning model was trained to predict the best crop based on soil conditions.
 
-**Steps**
+**Steps:**
 
-Feature selection
-Train-test split
-Model training
-Model evaluation
-Input Parameters
+1)Feature selection
+2)Train-test split
+3)Model training
+4)Model evaluation
+
+**Input Parameters**
 
 The model takes the following inputs:
-
-Nitrogen (N)
-Phosphorus (P)
-Potassium (K)
-Temperature
-Humidity
-pH value
-Rainfall
+1)Nitrogen (N)
+2)Phosphorus (P)
+3)Potassium (K)
+4)Temperature
+5)Humidity
+6)pH value
+7)Rainfall
 
 **Output**
 
 Recommended crop for cultivation.
-🌾 Example Prediction
 
+Example Prediction
 Input:
 N = 90  
 P = 42  
@@ -121,49 +119,48 @@ Humidity = 82
 pH = 6.5  
 Rainfall = 202
 
-Output:
+**Output:**
+
 Recommended Crop: Rice
 
-**📊 Key Insights**
+**Key Insights**
 
-Soil nutrients N, P, and K play a major role in crop selection.
-Environmental factors such as temperature and rainfall significantly impact crop suitability.
-Data-driven crop prediction can help farmers improve yield and resource efficiency.
+1)Soil nutrients N, P, and K play a major role in crop selection.
+2)Environmental factors such as temperature and rainfall significantly impact crop suitability.
+3)Data-driven crop prediction can help farmers improve yield and resource efficiency.
 
-**▶️ How to Run the Project**
-Step 1: Install Required Libraries
+**How to Run the Project**
 
+**Step 1: Install Required Libraries**
 pip install pandas numpy matplotlib seaborn scikit-learn
-Step 2: Open Jupyter Notebook
 
+**Step 2: Open Jupyter Notebook**
 Run the notebook:
 crop_recommendation_using_soil_analysis.ipynb
 
-Step 3: Execute the Cells
+**Step 3: Execute the Cells**
+1)Load dataset
+2)Perform EDA
+3)Train machine learning model
+4)Generate crop predictions
 
-Load dataset
-Perform EDA
-Train machine learning model
-Generate crop predictions
+**Skills Demonstrated**
+1)Data Analysis
+2)Exploratory Data Analysis (EDA)
+3)Machine Learning
+4)Data Visualization
+5)Feature Engineering
+6)Agricultural Data Analytics
 
-**🎯 Skills Demonstrated**
+**Author**
+Subburaj S 
+MCA Graduate | Aspiring Data Analyst 
 
-Data Analysis
-Exploratory Data Analysis (EDA)
-Machine Learning
-Data Visualization
-Feature Engineering
-Agricultural Data Analytics
+**Skills:**
 
-👨‍💻 Author
+1)Python
+2)SQL
+3)Power BI
+4)Data Analysis
+5)Machine Learning
 
-Subburaj S
-MCA Graduate | Aspiring Data Analyst / Data Scientist
-
-Skills:
-
-Python
-SQL
-Power BI
-Data Analysis
-Machine Learning
